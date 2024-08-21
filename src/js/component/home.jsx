@@ -1,7 +1,9 @@
 import React from "react";
+import '../../styles/TrafficLight.css'
 
 //include images into your bundle
 import rigoImage from "../../img/rigo-baby.jpg";
+import TrafficLight from "./TrafficLight";
 
 //create your first component
 const Home = () => {
@@ -15,6 +17,10 @@ const Home = () => {
 				If you see this green button... bootstrap is working...
 			</a>
 			<p>
+
+					<h1>Luces del Semafo</h1>
+					<TrafficLight />
+
 				Made by{" "}
 				<a href="http://www.4geeksacademy.com">4Geeks Academy</a>, with
 				love!
